@@ -1,0 +1,37 @@
+body{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(20, 20, 37);
+    padding-top: 7%;
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    background-color: rgb(31, 28, 59);
+    height: 320px;
+    overflow: hidden;
+}
+span{
+    color: rgb(164, 61, 164);
+}
+img{
+    width: 50%;
+    height: 100%;
+}
+.details{
+    padding: 30px;
+}
+p{
+    color: rgb(134, 125, 125);
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+@media  screen and (max-width: 768px) {
+    .container{
+        width: auto;
+    }
+}
